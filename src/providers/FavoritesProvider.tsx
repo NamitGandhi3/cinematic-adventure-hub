@@ -1,6 +1,6 @@
 
 import { createContext, useContext, useEffect, useState } from "react";
-import { toast } from "@/components/ui/sonner";
+import { toast } from "sonner";
 import { Movie } from "@/types/movie";
 
 type FavoritesContextType = {
